@@ -4,12 +4,22 @@
 
 defmodule arrayRotation do
     def rotateByOne do
+         def for_loop(count, action) when is_integer(count) and is_function(action) do
+         acc = 0
+         loop(action, count, acc)
 
+         defp loop(action, count, acc) do
+         if acc <= count do
+         action.(acc)
+         loop(action, count, acc+1)
+    end
+  end
+    end
     end
     def rotateByN do
 
     end
     def main do
-    
+
     end
 end 
