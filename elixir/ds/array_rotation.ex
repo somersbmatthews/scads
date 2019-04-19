@@ -3,20 +3,10 @@
 # array [1, 2, 3, 4, 5, 6, 7] rotates to array [3, 4, 5, 6, 7, 1, 2]
 
 defmodule arrayRotation do
-    def rotateByOne do
-         def for_loop(count, action) when is_integer(count) and is_function(action) do
-         acc = 0
-         loop(action, count, acc)
-
-         defp loop(action, count, acc) do
-         if acc <= count do
-         action.(acc)
-         loop(action, count, acc+1)
+    defp rotateByOne do
+    # for x <- 0..10, do: IO.puts x
     end
-  end
-    end
-    end
-    def rotateByN do
+    defp rotateByN do
 
     end
     def main do
