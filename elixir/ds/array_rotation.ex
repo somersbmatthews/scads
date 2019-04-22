@@ -4,7 +4,8 @@
 
 defmodule arrayRotation do
     defp leftRotateByN do
-
+    # for (int i = 0; i < d; i++) 
+    #     leftRotatebyOne(arr, n);
     end
     defp leftRotateByOne do
     # for x <- 0..10, do: IO.puts x
