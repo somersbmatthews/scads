@@ -18,6 +18,9 @@ defmodule arrayRotation do
     # arr[i] = temp;
     end
     def main do
-
+    # RotateArray rotate = new RotateArray(); 
+    # int arr[] = { 1, 2, 3, 4, 5, 6, 7 }; 
+    # rotate.leftRotate(arr, 2, 7); 
+    # rotate.printArray(arr, 7); 
     end
 end 
