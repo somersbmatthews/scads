@@ -40,3 +40,17 @@ end
 # [head | tail] = tail
 # head # 3
 # tail # []
+
+
+
+
+# defmodule MyEnum do
+#   def each([head | tail]) do
+#     IO.puts(head)
+#     each(tail)
+#   end
+
+#   def each([]), do: nil
+# end
+
+# MyEnum.each([1, 2, 3])
